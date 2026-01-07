@@ -1,6 +1,6 @@
 # My Next.js App
 
-## Setup Instructions
+## Project Setup Instructions
 
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
