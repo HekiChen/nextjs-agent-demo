@@ -1,7 +1,6 @@
 {
   "name": "my-nextjs-app",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,10 +21,9 @@
     "@types/node": "latest",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
-    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
     "prettier": "latest",
     "jest": "latest",
-    "@testing-library/react": "latest",
-    "@testing-library/jest-dom": "latest"
+    "@testing-library/react": "latest"
   }
 }
