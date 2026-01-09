@@ -1,8 +1,10 @@
 import { z } from 'zod';
 
-// Define the schema for environment variables
+// Define the environment variables schema
 const envSchema = z.object({
-  DATABASE_URL: z.string().min(1, 'DATABASE_URL is required'),
+  DATABASE_URL: z.string(),
+  GITHUB_TOKEN: z.string(),
+  NODE_ENV: z.enum(['development', 'staging', 'production']),
 });
 
 // Validate environment variables
